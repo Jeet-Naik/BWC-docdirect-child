@@ -1,0 +1,345 @@
+[14-Jun-2021 03:46:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 4
+[14-Jun-2021 03:48:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 4
+[14-Jun-2021 06:41:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 4
+[14-Jun-2021 08:23:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:33:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 4
+[14-Jun-2021 09:35:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 4
+[14-Jun-2021 09:35:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 4
+[14-Jun-2021 09:36:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:4
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 4
+[14-Jun-2021 09:37:02 UTC] PHP Parse error:  syntax error, unexpected '$access_token' (T_VARIABLE) in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 7
+[14-Jun-2021 09:37:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:39:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:39:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:41:25 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 09:42:18 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 09:45:27 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 09:47:18 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 09:47:52 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 09:48:53 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 09:50:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:50:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:51:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:52:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:52:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:56:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:57:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:57:29 UTC] PHP Warning:  require(/connect-php-sdk-master/vendor/autoload.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:57:29 UTC] PHP Warning:  require(/connect-php-sdk-master/vendor/autoload.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:57:29 UTC] PHP Fatal error:  require(): Failed opening required '/connect-php-sdk-master/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:58:13 UTC] PHP Warning:  require(/connect-php-sdk-master/vendor/autoload.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:58:13 UTC] PHP Warning:  require(/connect-php-sdk-master/vendor/autoload.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:58:13 UTC] PHP Fatal error:  require(): Failed opening required '/connect-php-sdk-master/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:58:41 UTC] PHP Warning:  require(/connect-php-sdk-master/vendor/autoload.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:58:41 UTC] PHP Warning:  require(/connect-php-sdk-master/vendor/autoload.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 09:58:41 UTC] PHP Fatal error:  require(): Failed opening required '/connect-php-sdk-master/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 3
+[14-Jun-2021 10:00:22 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 10:11:48 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 10:50:18 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 11:00:05 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 11:00:20 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 11:06:10 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:15:09 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:15:58 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:20:27 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:22:31 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:50:45 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:52:08 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:58:18 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 12:59:08 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:01:24 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:01:52 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:02:02 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:04:33 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:04:34 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"The `Authorization` http header of your request was incorrect or expired. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is a valid access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__ ."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locations/L...', 'POST', Array, '{"card_nonce":"...', Array, '\\SquareConnect\\...')
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-ph in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[14-Jun-2021 13:05:26 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:05:26 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"The `Authorization` http header of your request was incorrect or expired. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is a valid access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__ ."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locations/L...', 'POST', Array, '{"card_nonce":"...', Array, '\\SquareConnect\\...')
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-ph in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[14-Jun-2021 13:06:17 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:06:18 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"The `Authorization` http header of your request was incorrect or expired. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is a valid access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__ ."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locations/L...', 'POST', Array, '{"card_nonce":"...', Array, '\\SquareConnect\\...')
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-ph in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[14-Jun-2021 13:08:42 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:20:46 UTC] PHP Fatal error:  Uncaught Error: Class 'SquareConnect\Configuration' not found in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 7
+[14-Jun-2021 13:22:14 UTC] PHP Fatal error:  Uncaught Error: Class 'SquareConnect\Configuration' not found in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 7
+[14-Jun-2021 13:24:57 UTC] PHP Warning:  require_once(/home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/composer/autoload_real.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/autoload.php on line 5
+[14-Jun-2021 13:24:57 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/autoload.php on line 5
+[14-Jun-2021 13:25:48 UTC] PHP Warning:  require_once(/home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/composer/autoload_real.php): failed to open stream: No such file or directory in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/autoload.php on line 5
+[14-Jun-2021 13:25:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/square-php-sdk-master/autoload.php on line 5
+[14-Jun-2021 13:31:18 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:33:10 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:34:15 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 13:57:12 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 14:05:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\Http\ApiResponse::charge() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:28
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 28
+[14-Jun-2021 14:07:35 UTC] PHP Fatal error:  Uncaught Error: Cannot access private property Square\Models\Location::$id in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:27
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 27
+[14-Jun-2021 14:07:49 UTC] PHP Fatal error:  Uncaught Error: Cannot access private property Square\Models\Location::$id in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:27
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 27
+[14-Jun-2021 14:09:32 UTC] PHP Fatal error:  Uncaught Error: Cannot access private property Square\Models\Location::$id in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:27
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 27
+[14-Jun-2021 14:12:23 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Square\Models\Location as array in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:27
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 27
+[14-Jun-2021 14:22:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Square\Models\Location as array in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:27
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 27
+[14-Jun-2021 14:23:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\Http\ApiResponse::charge() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:30
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 30
+[14-Jun-2021 14:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\Http\ApiResponse::charge() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:30
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 30
+[14-Jun-2021 14:32:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\Http\ApiResponse::charge() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:30
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 30
+[14-Jun-2021 14:57:34 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 15:10:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\Models\ListLocationsResponse::getOrder() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:24
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 24
+[14-Jun-2021 15:22:54 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[14-Jun-2021 15:43:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\SquareClient::getConfig() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php:429
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php(373): SquareConnect\Api\PaymentsApi->createPaymentWithHttpInfo(Array)
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(30): SquareConnect\Api\PaymentsApi->createPayment(Array)
+#2 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php on line 429
+[14-Jun-2021 15:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\SquareClient::getConfig() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php:429
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php(373): SquareConnect\Api\PaymentsApi->createPaymentWithHttpInfo(Array)
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(30): SquareConnect\Api\PaymentsApi->createPayment(Array)
+#2 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php on line 429
+[14-Jun-2021 15:46:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\SquareClient::getConfig() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php:429
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php(373): SquareConnect\Api\PaymentsApi->createPaymentWithHttpInfo(Array)
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(29): SquareConnect\Api\PaymentsApi->createPayment(Array)
+#2 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php on line 429
+[14-Jun-2021 15:46:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\SquareClient::getConfig() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php:429
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php(373): SquareConnect\Api\PaymentsApi->createPaymentWithHttpInfo(Array)
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(29): SquareConnect\Api\PaymentsApi->createPayment(Array)
+#2 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php on line 429
+[14-Jun-2021 15:47:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\SquareClient::getConfig() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php:429
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php(373): SquareConnect\Api\PaymentsApi->createPaymentWithHttpInfo(Array)
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(30): SquareConnect\Api\PaymentsApi->createPayment(Array)
+#2 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php on line 429
+[14-Jun-2021 15:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\SquareClient::getConfig() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php:429
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php(373): SquareConnect\Api\PaymentsApi->createPaymentWithHttpInfo(Array)
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(30): SquareConnect\Api\PaymentsApi->createPayment(Array)
+#2 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php on line 429
+[15-Jun-2021 02:03:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Square\SquareClient::getConfig() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php:429
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php(373): SquareConnect\Api\PaymentsApi->createPaymentWithHttpInfo(Array)
+#1 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(30): SquareConnect\Api\PaymentsApi->createPayment(Array)
+#2 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/PaymentsApi.php on line 429
+[15-Jun-2021 02:18:36 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 02:20:26 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 02:21:01 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 02:22:10 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 02:29:42 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 02:35:49 UTC] PHP Fatal error:  Cannot use Square\SquareClient as SquareClient because the name is already in use in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 85
+[15-Jun-2021 03:28:13 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Square\Apis\OrdersApi::createOrder() must be an instance of Square\Models\CreateOrderRequest, array given, called in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 31 and defined in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/OrdersApi.php:44
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(31): Square\Apis\OrdersApi->createOrder(Array)
+#1 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/OrdersApi.php on line 44
+[15-Jun-2021 03:34:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Square\Apis\OrdersApi::createOrder() must be an instance of Square\Models\CreateOrderRequest, array given, called in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 35 and defined in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/OrdersApi.php:44
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php(35): Square\Apis\OrdersApi->createOrder(Array)
+#1 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/OrdersApi.php on line 44
+[15-Jun-2021 03:47:30 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Square\Http\ApiResponse as array in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:51
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 51
+[15-Jun-2021 03:49:48 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Square\Http\ApiResponse as array in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:51
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 51
+[15-Jun-2021 03:57:18 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 03:57:19 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"Your request did not include an `Authorization` http header with an access token. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is to be replaced with your access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__. If you are seeing this error message while using one of our officially supported client libraries, please report this to developers@squareup.com."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locati in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[15-Jun-2021 03:58:36 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 03:58:36 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"Your request did not include an `Authorization` http header with an access token. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is to be replaced with your access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__. If you are seeing this error message while using one of our officially supported client libraries, please report this to developers@squareup.com."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locati in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[15-Jun-2021 04:02:24 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 04:02:25 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"Your request did not include an `Authorization` http header with an access token. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is to be replaced with your access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__. If you are seeing this error message while using one of our officially supported client libraries, please report this to developers@squareup.com."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locati in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[15-Jun-2021 04:03:04 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 04:03:04 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"Your request did not include an `Authorization` http header with an access token. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is to be replaced with your access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__. If you are seeing this error message while using one of our officially supported client libraries, please report this to developers@squareup.com."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locati in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[15-Jun-2021 04:09:52 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 04:09:52 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"Your request did not include an `Authorization` http header with an access token. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is to be replaced with your access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__. If you are seeing this error message while using one of our officially supported client libraries, please report this to developers@squareup.com."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locati in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[15-Jun-2021 04:14:16 UTC] PHP Deprecated:  [33mCalling deprecated API: TransactionsApi.charge[0m in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php on line 191
+[15-Jun-2021 04:14:16 UTC] PHP Fatal error:  Uncaught SquareConnect\ApiException: [HTTP/2 401] {"errors":[{"category":"AUTHENTICATION_ERROR","code":"UNAUTHORIZED","detail":"Your request did not include an `Authorization` http header with an access token. The header value is expected to be of the format \"Bearer TOKEN\" (without quotation marks), where TOKEN is to be replaced with your access token (e.g. \"Bearer ABC123def456GHI789jkl0\"). For more information, see https://developer.squareup.com/docs/build-basics/using-rest-api#__set-the-headers__. If you are seeing this error message while using one of our officially supported client libraries, please report this to developers@squareup.com."}]} in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php:236
+Stack trace:
+#0 /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/Api/TransactionsApi.php(268): SquareConnect\ApiClient->callApi('/v2/locati in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/connect/lib/ApiClient.php on line 236
+[15-Jun-2021 04:58:59 UTC] PHP Fatal error:  Uncaught Error: Class 'SquareConnect\ChargeRequest' not found in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:29
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 29
+[15-Jun-2021 05:14:41 UTC] PHP Fatal error:  Uncaught Error: Class 'SquareConnect\ChargeRequest' not found in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:29
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 29
+[15-Jun-2021 06:30:15 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::listTransactions is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 190
+[15-Jun-2021 06:34:30 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::listTransactions is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 190
+[15-Jun-2021 06:34:30 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Square\Models\ListTransactionsResponse as array in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:24
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 24
+[15-Jun-2021 07:04:57 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 07:27:31 UTC] PHP Fatal error:  Uncaught Error: Class 'SquareConnect\Api\LocationApi' not found in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:19
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 19
+[15-Jun-2021 07:31:09 UTC] PHP Fatal error:  Uncaught Error: Class 'SquareConnect\Api\LocationApi' not found in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 20
+[15-Jun-2021 07:33:27 UTC] PHP Fatal error:  Uncaught Error: Class 'SquareConnect\Api\LocationApi' not found in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:20
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 20
+[15-Jun-2021 08:42:19 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 08:43:21 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 08:49:20 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 08:52:08 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 08:52:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Square\Models\ChargeResponse as array in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:32
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 32
+[15-Jun-2021 08:57:35 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 08:57:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 46
+[15-Jun-2021 08:57:35 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 74
+[15-Jun-2021 08:59:33 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 13:21:08 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 14:35:07 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[15-Jun-2021 15:44:14 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[16-Jun-2021 06:21:27 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[16-Jun-2021 10:59:27 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[16-Jun-2021 13:17:50 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 06:41:54 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 06:42:22 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 07:28:28 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 07:28:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pmpro_get_element_class() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:94
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 94
+[17-Jun-2021 07:30:31 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 07:30:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:106
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 106
+[17-Jun-2021 07:36:46 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 07:36:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php:106
+Stack trace:
+#0 {main}
+  thrown in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 106
+[17-Jun-2021 07:37:47 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 07:44:22 UTC] PHP Fatal error:  Cannot use Square\SquareClient as SquareClient because the name is already in use in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 125
+[17-Jun-2021 07:44:47 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[17-Jun-2021 09:05:33 UTC] PHP Fatal error:  Cannot use Square\SquareClient as SquareClient because the name is already in use in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/payment-process.php on line 124
+[19-Jun-2021 06:04:08 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[19-Jun-2021 07:31:29 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[19-Jun-2021 07:31:34 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[19-Jun-2021 07:36:03 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[19-Jun-2021 07:38:08 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[19-Jun-2021 08:46:43 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[22-Jun-2021 04:00:00 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[22-Jun-2021 04:00:30 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[22-Jun-2021 04:01:16 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290
+[22-Jun-2021 04:04:04 UTC] PHP Deprecated:  Method Square\Apis\TransactionsApi::charge is deprecated. in /home3/potenzag/public_html/test-bh-pgs/bwc/wp-content/themes/docdirect-child/connect-php-sdk-master/vendor/square/square/src/Apis/TransactionsApi.php on line 290

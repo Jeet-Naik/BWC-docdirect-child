@@ -1,0 +1,43 @@
+{
+    "key": "group_609cf8d6ba2ae",
+    "title": "Upload PDF File Setting",
+    "fields": [
+        {
+            "key": "field_609cf98c0851c",
+            "label": "Upload PDF File",
+            "name": "pdf_upload",
+            "type": "file",
+            "instructions": "Upload PDF file which will be downloaded while pop-up form is submitted on welcome page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-pdf-upload"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1624971276
+}

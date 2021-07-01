@@ -1,0 +1,6 @@
+{
+    "require": {
+        "square/square": "11.0.0.20210513",
+        "square/connect": "^3.20200528"
+    }
+}

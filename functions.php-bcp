@@ -1,0 +1,424 @@
+<?php
+
+/**
+
+ * Theme functions file
+
+ */
+
+
+
+/**
+
+ * Enqueue parent theme styles first
+
+ * Replaces previous method using @import
+
+ * <http://codex.wordpress.org/Child_Themes>
+
+ */
+
+
+
+function docdirect_child_theme_enqueue_styles() {
+
+	$parent_theme_version = wp_get_theme('docdirect');
+
+	$child_theme_version  = wp_get_theme('docdirect-child');
+
+    $parent_style  = 'docdirect_theme_style';
+
+	wp_enqueue_style( 'docdirect_child_style',
+
+        get_stylesheet_directory_uri() . '/style.css',
+
+        array( $parent_style ),
+
+		$child_theme_version->get('Version')
+
+    );
+
+
+
+    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css', array('bootstrap.min','choosen'),$parent_theme_version->get( 'Version' ));
+
+}
+
+
+
+add_action( 'wp_enqueue_scripts', 'docdirect_child_theme_enqueue_styles' );
+
+
+add_shortcode( 'directory_type_top_category', 'slidermy' );
+function slidermy( $atts ) {
+    ob_start();
+    $query = new WP_Query( array(
+        'post_type' => 'directory_type',
+        'posts_per_page' => 6,
+        'order' => 'DESC',
+        
+    ) );
+    if ( $query->have_posts() ) { ?>
+  <section class="tg-main-section haslayout  default" style="padding-top:50px;padding-right:0px;padding-bottom:0px;padding-left:0px;background-repeat:no-repeat;background-position:0% 100%; background-size: cover;">
+   <div class="builder-items">
+      <div class="col-xs-12 col-md-12 builder-column " style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+        
+         <div class="doc-topcategories">
+         	<?php
+                while ( $query->have_posts() ) : $query->the_post();
+                $category_image = fw_get_db_post_option(get_the_ID(), 'category_image', true);
+				?>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+               <div class="doc-category">
+                  <figure class="doc-categoryimg">
+                     <div class="doc-hoverbg">
+
+                        <h3><?php the_title();?></h3>
+                     </div>
+
+						<?php 
+            	if( !empty( $category_image['attachment_id'] ) ){
+								  $banner	= docdirect_get_image_source($category_image['attachment_id'],470,305);
+					  		} 
+                else{
+						 		 $banner	= get_template_directory_uri().'/images/user470x305.jpg';
+						 	}
+							?>
+					<img src="<?php echo esc_url( $banner );?>" alt="<?php the_title();?>">
+                     
+                     <figcaption class="doc-imghover">
+                        <div class="doc-categoryname">
+                           <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+            <?php endwhile;
+            wp_reset_postdata(); ?>
+         </div>
+      </div>
+   </div>
+</section>
+        
+    <?php $myvariable = ob_get_clean();
+    return $myvariable;
+    }
+}
+
+//Shortcode for Feature Coach
+function featured_coach_listing_function(){
+        
+$today = time();
+$users_type = 'all';
+$show_users = 10;
+$order     = 'DESC';
+$uniq_flag = fw_unique_increment();
+$query_args1  = array(
+          'role'  => 'professional',
+          'count_total' => false,
+          'order' => $order,
+          'number' => $show_users 
+         );
+
+if( isset( $users_type ) && !empty( $users_type ) && $users_type !='all' ) {
+  $meta_query_args1[] = array(
+            'key'     => 'directory_type',
+            'value'   => $users_type,
+            'compare' => '='
+          );
+}
+
+
+//Verify user
+$meta_query_args1[] = array(
+            'key'     => 'verify_user',
+            'value'   => 'on',
+            'compare' => '='
+          );
+$meta_query_args1[] = array(
+            'key'     => 'profile_status',
+            'value'   => 'active',
+            'compare' => '='
+          );
+
+if( !empty( $meta_query_args1 ) ) {
+  $query_relation = array('relation' => 'AND',);
+  $meta_query_args1 = array_merge( $query_relation,$meta_query_args1 );
+  $query_args1['meta_query'] = $meta_query_args1;
+}
+
+//Featured users
+$query_args1['meta_key'] = 'user_featured';
+$query_args1['orderby']  = array( 
+  'meta_value'  => 'DESC', 
+  'ID'          => 'DESC',
+); 
+$user_query  = new WP_User_Query($query_args1); 
+
+$result='';
+    if ( ! empty( $user_query->results ) ) {
+    
+    $result .='<div class="featured-coache">';
+      foreach ( $user_query->results as $user ) {
+        
+        $privacy    = docdirect_get_privacy_settings($user->ID); //Privacy settings
+        $directory_type = get_user_meta( $user->ID, 'directory_type', true);
+        $reviews_switch    = fw_get_db_post_option($directory_type, 'reviews', true);
+        $video_url    = fw_get_db_post_option($directory_type, 'video_url', true);
+        $avatar = apply_filters(
+              'docdirect_get_user_avatar_filter',
+               docdirect_get_user_avatar(array('width'=>275,'height'=>191), $user->ID),
+               array('width'=>275,'height'=>191) //size width,height
+            );
+          
+        $first_name          = get_user_meta( $user->ID, 'first_name', true);
+        $last_name         = get_user_meta( $user->ID, 'last_name', true);
+        $display_name        = get_user_meta( $user->ID, 'display_name', true);
+        //$web_url =  get_user_meta( $user->ID, 'bill_url', true );
+        
+        
+        if( !empty( $first_name ) || !empty( $last_name ) ){
+          $username = $first_name.' '.$last_name;
+        } else{
+          $username = $display_name;
+        }
+
+
+
+        $featured_string     = docdirect_get_user_featured_date($user->ID);
+        $current_date     = date('Y-m-d H:i:s');
+        $current_string = strtotime( $current_date );
+        $data = docdirect_get_everage_rating ( $user->ID );
+        $username = docdirect_get_username( $user->ID );
+        
+        //Social Link
+        $facebook = get_the_author_meta('facebook', $user->ID);
+        $twitter = get_the_author_meta('twitter', $user->ID);
+        $pinterest = get_the_author_meta('pinterest', $user->ID);
+        $linkedin = get_the_author_meta('linkedin', $user->ID);
+        $tumblr = get_the_author_meta('tumblr', $user->ID);
+        $google = get_the_author_meta('google', $user->ID);
+        $instagram = get_the_author_meta('instagram', $user->ID);
+        $skype = get_the_author_meta('skype', $user->ID);
+        $web_url = get_the_author_meta('url', $user->ID);
+        $company_name =  get_user_meta( $user->ID, 'billing_company', true );
+                                      
+if (!empty($avatar)) {
+    $result .='<a href="'.get_author_posts_url($user->ID).'"><img src="'.esc_url( $avatar ).'" alt="'.$alt_user.'"></a>';
+  }
+else{
+  $result .='<iframe width="560" height="315" src="'. esc_attr( $video_url ) .'" frameborder="0" allowfullscreen></iframe>';
+} 
+$result .='<div class="featured-coache-content"><div class="featured-coache-name"><h3><a href="'.get_author_posts_url($user->ID).'">'.esc_attr( $username ).'</a></h3></div><span class="featured-coache-company-name">'.esc_attr( $company_name ).'</span><a class="featured-coache-web-link" href="'.esc_url($web_url).'">'.esc_attr( $web_url ).'</a>';
+
+  
+   
+if (!empty($facebook) || !empty($twitter) || !empty($pinterest) || !empty($linkedin) || !empty($tumblr) || !empty($google) || !empty($instagram) || !empty($skype)
+) {
+$result .= '<div class="featured-coache-social">
+              <ul class="tg-socialicons">
+                  ';
+                  if (isset($facebook) && !empty($facebook)){
+                  $result .= '
+                  <li class="tg-facebook"><a href="' . esc_url(get_the_author_meta('facebook', $user->ID)) .'"><i class="fa fa-facebook"></i></a></li>
+                  ';
+                  } 
+                  if (isset($twitter) && !empty($twitter)){
+                  $result .= '
+                  <li class="tg-twitter"><a href="' . esc_url(get_the_author_meta('twitter', $user->ID)) .'"><i class="fa fa-twitter"></i></a></li>
+                  ';
+                  } 
+                  if (isset($pinterest) && !empty($pinterest)){
+                  $result .= '
+                  <li class="tg-pinterest"><a href="' . esc_url(get_the_author_meta('pinterest', $user->ID)) .'"><i class="fa fa-pinterest"></i></a></li>
+                  ';
+                  } 
+                  if (isset($linkedin) && !empty($linkedin)){
+                  $result .= '
+                  <li class="tg-linkedin"><a href="' . esc_url(get_the_author_meta('linkedin', $user->ID)) .'"><i class="fa fa-linkedin"></i></a></li>
+                  ';
+                  }
+                  if (isset($tumblr) && !empty($tumblr)){
+                  $result .= '
+                  <li class="tg-tumblr"><a href="' . esc_url(get_the_author_meta('tumblr', $user->ID)) .'"><i class="fa fa-tumblr"></i></a></li>
+                  ';
+                  } 
+                  if (isset($google) && !empty($google)){
+                  $result .= '
+                  <li class="tg-google"><a href="' . esc_url(get_the_author_meta('google', $user->ID)) .'"><i class="fa fa-google"></i></a></li>
+                  ';
+                  } 
+                  if (isset($instagram) && !empty($instagram)){
+                  $result .= '
+                  <li class="tg-instagram"><a href="' . esc_url(get_the_author_meta('instagram', $user->ID)) .'"><i class="fa fa-instagram"></i></a></li>
+                  ';
+                  } 
+                  if (isset($skype) && !empty($skype)){
+                  $result .= '
+                  <li class="tg-skype"><a href="' . esc_url(get_the_author_meta('skype', $user->ID)) .'"><i class="fa fa-skype"></i></a></li>
+                  ';
+                  } 
+                  $result .=  '
+               </ul>
+               ';
+               }
+               $result .= '
+            </div>
+         </div>
+      </div>';
+if( !empty( $user->user_address ) ) {
+$result .='
+<address>'.esc_attr( $user->user_address ).'</address>
+';
+}
+if( !empty( $user->phone_number ) 
+&&
+!empty( $privacy['phone'] )
+&& 
+$privacy['phone'] == 'on'
+) {
+$result .='
+<div class="tg-phone"><i class="fa fa-phone"></i> <em><a href="tel:'.esc_attr( $user->phone_number ).'">'.esc_attr( $user->phone_number ).'</a></em></div>
+';
+}
+$result .='</div>';
+$result .='</div>';
+}
+}
+
+      $result .='</div>';
+    
+      $script_add_par1='<i class="doc-btnprev icon-arrows-1"></i>';
+    $script_add_par2='<i class="doc-btnnext icon-arrows"></i>';
+      $result .='<script>
+      jQuery(document).ready(function(e) {
+            jQuery("#tg-featuredlist-3").owlCarousel({
+        items:3,
+        rtl: false,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        rewind:true,
+        // navText : ['.$script_add_par1.','.$script_add_par2.'],
+        responsive:{
+          0:{items:1},
+          481:{items:2},
+          991:{items:2},
+          1200:{items:3},
+          1280:{items:4},
+        }
+      });
+        });
+    </script>
+    </div>        
+</div>
+        </div>
+    </section>';
+    $tags = array("<p>", "</p>");
+    $results = str_replace($tags, "\n", $result);
+
+    //$finalcontent = wpautop(trim($result));
+  return $results;
+
+
+}
+function register_shortcodes_2(){
+   add_shortcode('featured-coach-listing', 'featured_coach_listing_function');
+}
+add_action( 'init', 'register_shortcodes_2');
+
+
+
+require get_stylesheet_directory() . '/framework-customizations/theme/options/headers-settings.php';
+require get_stylesheet_directory() . '/inc/headers/class-headers.php';
+
+
+
+//Shortcode for bootstrap row 
+function shortcode_bootstrap_row($atts, $content=null) {
+  $a = shortcode_atts(
+    array('class' => ''),
+    $atts);
+  return '<div class="row ' . esc_attr($a['class']) . '">' . do_shortcode($content) . '</div>';
+}
+add_shortcode('row', 'shortcode_bootstrap_row');
+
+//Shortcode for bootstrap column 
+function shortcode_bootstrap_column($atts, $content=null) {
+  $a = shortcode_atts(
+    array('class' => 'col-xs-12'),
+    $atts);
+  return '<div class="' . esc_attr($a['class']) . '">' . do_shortcode($content) . '</div>';
+}
+add_shortcode('col', 'shortcode_bootstrap_column');
+
+//Change the priority of the wpautop action to prevent 
+//extra <p> tags being added between tags
+function change_wpautop_priority() { 
+  remove_filter( 'the_content', 'wpautop' );
+  add_filter( 'the_content', 'wpautop' , 12);
+}
+add_action('init', 'change_wpautop_priority');
+
+//Quick Search
+function quick_search_search_shortcode(){
+
+   ob_start(); ?>
+
+ <div class="col-sm-12 col-md-12 text-center quick-search">
+
+  <form class="form-inline" action="<?php echo site_url('/dir-search/'); ?>" method="get" id="searchfiltr">
+  <div class="form-group fields">
+    <input type="text" name="by_name" placeholder="Type Keyword..." class="form-control">
+  
+     <?php
+              $locations = get_categories('taxonomy=locations&hide_empty=0'); 
+               ?>
+               <select class="form-control" name="basics[location]" id="options">
+                <option value="">Select Location</option>
+                 <?php
+                  foreach($locations as $location)
+                { 
+                ?>
+                     <option value= <?php echo $location->slug ?> > 
+                      <?php echo $location->name; ?> (<?php echo $location->count; ?>)
+                     </option>";
+                     <?php
+             }
+               ?>
+               </select>
+    
+    <?php
+               $specialities_cat = get_categories('taxonomy=specialities&hide_empty=0'); 
+               ?>
+               <select class="form-control" name="speciality[]" id="options">
+                <option value="">Select Specialities</option>
+                 <?php
+                  foreach($specialities_cat as $specialitie)
+                { 
+                ?>
+                     <option value= <?php echo $specialitie->slug ?> > 
+                      <?php echo $specialitie->name ?> (<?php echo $specialitie->count; ?>)
+                     </option>";
+                     <?php
+             }
+               ?>
+               </select>
+    <input type="submit" id="search_banner" class="search_btn" value="search">
+  </div>
+  
+  
+  
+</form>
+</div>
+        
+
+<?php $specialsearch = ob_get_clean();
+
+return $specialsearch;
+
+}
+
+add_shortcode('quick-search', 'quick_search_search_shortcode');
+
